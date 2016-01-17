@@ -1,0 +1,25 @@
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.6774194
+color:
+  saturation: 0.1541219
+  brandStrength: 0.8172043
+  rhythmicContrast: 0.2706093
+  brandColors:
+    - '#2E4380'
+    - '#1F2028'
+    - '#BDC5D7'
+    - '#FFFCFA'
+  lightness: 0.06272402
+layout_spectrum: 1
+name: herrbrendel
