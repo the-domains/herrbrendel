@@ -1,13 +1,25 @@
-layout_spectrum: 1
-typography_spectrum: 0.6766919
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
+typography_spectrum: 0.3914894
 color:
   saturation: 0.1541219
   brandStrength: 0.8172043
-  lightness: 0.06272402
+  rhythmicContrast: 0.2706093
   brandColors:
     - '#2E4380'
     - '#1F2028'
     - '#BDC5D7'
     - '#FFFCFA'
-  rhythmicContrast: 0.2706093
+  lightness: 0.06272402
+layout_spectrum: 1
 name: herrbrendel
